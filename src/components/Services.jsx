@@ -64,10 +64,10 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Sources d’émissions de CO₂</h4>
+              <h4 className="h4 mb-4">Conséquences du réchauffement</h4>
               
               <ul className="body-2">
-                {brainwaveServices2.map((item, index) => (
+                {brainwaveServices4.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
@@ -95,10 +95,10 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Solutions de réduction</h4>
+              <h4 className="h4 mb-4">La Déforestation</h4>
               
               <ul className="body-2">
-                {brainwaveServices3.map((item, index) => (
+                {brainwaveServices5.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
@@ -111,7 +111,7 @@ const Services = () => {
             </div>
 
             <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
-          </div>
+          </div> 
           
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
@@ -138,6 +138,7 @@ const Services = () => {
            
           </div>
           
+         
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
@@ -150,10 +151,10 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Conséquences du réchauffement</h4>
+              <h4 className="h4 mb-4">Sources d’émissions de CO₂</h4>
               
               <ul className="body-2">
-                {brainwaveServices4.map((item, index) => (
+                {brainwaveServices2.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
@@ -168,8 +169,9 @@ const Services = () => {
             <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
           </div>
 
+            
 
-             <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
                 className="w-full h-full object-cover md:object-right"
@@ -181,10 +183,10 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">La Déforestation</h4>
+              <h4 className="h4 mb-4">Solutions de réduction</h4>
               
               <ul className="body-2">
-                {brainwaveServices5.map((item, index) => (
+                {brainwaveServices3.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
