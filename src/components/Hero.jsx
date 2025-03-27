@@ -39,7 +39,7 @@ const Hero = () => {
           Explorez l’harmonie entre foi et écologie. Comprenez, agissez et protégez la Terre pour un avenir durable.
           </p>
           <Button href="/pricing" white>
-            Get started
+            Océanographie
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">

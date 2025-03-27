@@ -27,14 +27,7 @@ import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -63,10 +56,18 @@ import benefitCard3 from "./benefits/card-3.svg";
 import benefitCard4 from "./benefits/card-4.svg";
 import benefitCard5 from "./benefits/card-5.svg";
 import benefitCard6 from "./benefits/card-6.svg";
+
+
 import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
+import benefitIcon5 from "./benefits/icon-5.svg";
+import benefitIcon6 from "./benefits/icon-6.svg";
+import benefitIcon7 from "./benefits/icon-7.svg";
+import benefitIcon8 from "./benefits/icon-8.svg";
+
+
 import benefitImage2 from "./benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
@@ -103,14 +104,6 @@ export {
   heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
   service1,
   service2,
   service3,
@@ -138,6 +131,10 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
+  benefitIcon7,
+  benefitIcon8,
   benefitImage2,
   discordBlack,
   facebook,

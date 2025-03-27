@@ -5,8 +5,7 @@ import { brainwaveServices, brainwaveServices2, brainwaveServices3, brainwaveSer
 import {
   PhotoChatMessage,
   Gradient,
-  VideoBar,
-  VideoChatMessage,
+  
 } from "./design/Services";
 
 import Generating from "./Generating";
