@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServices2, brainwaveServices3, brainwaveServices4, brainwaveServices5, brainwaveServicesIcons } from "../constants";
+import { service1, service2,  check } from "../assets";
+import { brainwaveServices, brainwaveServices2, brainwaveServices3, brainwaveServices4, brainwaveServices5 } from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
@@ -12,7 +12,7 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="enjeu">
       <div className="container">
         <Heading
           title="Les enjeux des prochaines années."
@@ -138,7 +138,7 @@ const Services = () => {
           </div>
           
          
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 flex items-center h-[39rem] mb-5 mt-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
                 className="w-full h-full object-cover md:object-right"

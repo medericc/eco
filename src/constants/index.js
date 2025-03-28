@@ -30,7 +30,7 @@ import {
   searchMd,
 
   sliders04,
-  telegram,
+ 
   twitter,
   yourlogo,
 } from "../assets";
@@ -38,36 +38,30 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Début",
+    url: "#debut",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Concepts",
+    url: "#concept",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Schéma",
+    url: "#schema",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Enjeux",
+    url: "#enjeu",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    title: "Footer",
+    url: "#footer",
   },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -276,14 +270,9 @@ export const socials = [
     iconUrl: instagram,
     url: "#",
   },
+
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
     title: "Facebook",
     iconUrl: facebook,
     url: "#",

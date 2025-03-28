@@ -1,12 +1,12 @@
-import { brainwaveSymbol, check } from "../assets";
-import { collabApps, collabContent, collabText } from "../constants";
-import Button from "./Button";
+import { brainwaveSymbol } from "../assets";
+import { collabApps } from "../constants";
+
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
-    <Section crosses>
+    <Section crosses id="schema">
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
       
@@ -19,7 +19,7 @@ const Collaboration = () => {
                     src={brainwaveSymbol}
                     width={48}
                     height={48}
-                    alt="brainwave"
+                    alt="vie"
                   />
                 </div>
               </div>

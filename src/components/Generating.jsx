@@ -7,7 +7,7 @@ const Generating = ({ className }) => {
         className || ""
       } text-base`}
     >
-      <img className="w-5 h-5 mr-4" src={loading} alt="Loading" />
+      <img className="w-6 h-6 mr-4" src={loading} alt="Loading" />
        <span className="text-sm">Dieu a tant aimé le monde</span>
     </div>
   );
