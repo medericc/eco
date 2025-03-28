@@ -1,0 +1,25 @@
+<svg
+  width="200"
+  height="200"
+  viewBox="0 0 200 200"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Soleil -->
+  <circle cx="160" cy="40" r="20" stroke="#FFD700" stroke-width="5" fill="none"/>
+
+  <!-- Tronc d'arbre -->
+  <rect x="90" y="100" width="20" height="50" fill="#8B5A2B"/>
+
+  <!-- Feuillage -->
+  <circle cx="100" cy="80" r="30" fill="#2E8B57"/>
+  <circle cx="80" cy="90" r="25" fill="#3CB371"/>
+  <circle cx="120" cy="90" r="25" fill="#3CB371"/>
+
+  <!-- Sol -->
+  <ellipse cx="100" cy="160" rx="60" ry="15" fill="#654321"/>
+
+  <!-- Eau -->
+  <path d="M40 170 Q100 190, 160 170" stroke="#1E90FF" stroke-width="5" fill="none"/>
+
+</svg>

@@ -1,0 +1,22 @@
+<svg
+  width="200"
+  height="200"
+  viewBox="0 0 200 200"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Soleil -->
+  <circle cx="160" cy="40" r="20" stroke="#FFD700" stroke-width="5" fill="none"/>
+
+  <!-- Montagne -->
+  <polygon points="50,150 100,60 150,150" fill="#2F4F4F"/>
+
+  <!-- Arbre -->
+  <rect x="90" y="120" width="20" height="30" fill="#8B4513"/>
+  <circle cx="100" cy="110" r="25" fill="#228B22"/>
+  <circle cx="80" cy="110" r="20" fill="#228B22"/>
+  <circle cx="120" cy="110" r="20" fill="#228B22"/>
+
+  <!-- Sol -->
+  <ellipse cx="100" cy="170" rx="60" ry="15" fill="#3E8E41"/>
+</svg>

@@ -33,6 +33,10 @@ import {
  
   twitter,
   yourlogo,
+  yourlogo2,
+  yourlogo3,
+  yourlogo4,
+  yourlogo5,
 } from "../assets";
 
 export const navigation = [
@@ -68,7 +72,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [yourlogo4, yourlogo2, yourlogo5, yourlogo, yourlogo3];
 
 export const brainwaveServices = [
   "La déforestation",

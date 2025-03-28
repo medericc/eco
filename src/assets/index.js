@@ -8,7 +8,16 @@ import smallSphere from "./4-small.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
-import yourlogo from "./yourlogo.svg";
+
+import yourlogo from "./biod.svg";
+import yourlogo2 from "./eco.svg";
+import yourlogo3 from "./logo.svg";
+import yourlogo4 from "./environnements.svg";
+import yourlogo5 from "./logo2.svg";
+
+
+
+
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -80,6 +89,10 @@ export {
   smallSphere,
   grid,
   yourlogo,
+  yourlogo2,
+  yourlogo3,
+  yourlogo4,
+  yourlogo5,
   homeSmile,
   file02,
   searchMd,
