@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service2,  service4, service5, service6, service7,  check } from "../assets";
-import { brainwaveServices, brainwaveServices2, brainwaveServices3, brainwaveServices4, brainwaveServices5 } from "../constants";
+import { brainwaveServices, brainwaveServices2, brainwaveServices3, brainwaveServices4, brainwaveServices5 } from "../tout";
 import {
   PhotoChatMessage,
   Gradient,

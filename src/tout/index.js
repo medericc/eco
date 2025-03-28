@@ -66,7 +66,7 @@ export const navigation = [
 
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const styleIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
@@ -178,12 +178,12 @@ export const collabApps = [
 
 
 
-export const benefits = [
+export const base = [
   {
     id: "0",
     title: "L'Écologie",
     text: "Étude des interactions entre les organismes vivants et leur environnement, avec le milieu physique ou avec d'autres êtres vivants.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "./src/assets/base/card-1.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
@@ -191,7 +191,7 @@ export const benefits = [
     id: "1",
     title: "L'Écosystème",
     text: "Ensemble d’interactions entre les organismes et leur environnement physique, ils forment la biosphère, l’ensemble des zones où la vie est possible sur Terre.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: "./src/assets/base/card-2.svg",
     iconUrl: benefitIcon8,
     imageUrl: benefitImage2,
     light: true,
@@ -200,7 +200,7 @@ export const benefits = [
     id: "2",
     title: "Les Biomes",
     text: "Grandes zones climatiques regroupant des écosystèmes similaires, qui sont influencés par des facteurs abiotiques et biotiques.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: "./src/assets/base/card-3.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
   },
@@ -208,7 +208,7 @@ export const benefits = [
     id: "3",
     title: "Interactions Biologiques",
     text: "Dans un écosystème, un organisme peut en manger un autre, deux espèces peuvent tirer profit de leur relation ou lutter pour une ressource limitée, vivre au dépens d'un autre ou encore profiter d'une autre espèce sans lui nuire.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: "./src/assets/base/card-4.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
@@ -217,7 +217,7 @@ export const benefits = [
     id: "4",
     title: "La Biodiversité",
     text: "Essentielle à la stabilité des écosystèmes, plus un écosystème est diversifié, plus il résiste aux perturbations grâce aux interactions biologiques.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: "./src/assets/base/card-5.svg",
     iconUrl: benefitIcon6,
     imageUrl: benefitImage2,
   },
@@ -225,7 +225,7 @@ export const benefits = [
     id: "5",
     title: "Les Corridors Écologiques",
     text: "Passages permettant aux espèces de se déplacer entre des habitats fragmentés qui empêche les espèces de migrer et réduit la diversité génétique et augmente le risque d’extinction.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: "./src/assets/base/card-6.svg",
     iconUrl: benefitIcon5,
     imageUrl: benefitImage2,
   },
@@ -233,7 +233,7 @@ export const benefits = [
     id: "6",
     title: "Le Forçage Radiatif",
     text: "La différence entre l’énergie solaire absorbée par la Terre et celle renvoyée dans l’espace. Si ce forçage est positif, la Terre se réchauffe car il y a plus d’énergie retenue.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: "./src/assets/base/card-6.svg",
     iconUrl: benefitIcon7,
     imageUrl: benefitImage2,
   },
@@ -241,7 +241,7 @@ export const benefits = [
     id: "7",
     title: "Le Gulf Stream",
     text: "Courant chaud transportant la chaleur vers l’Europe, il ralentit à cause du réchauffement et donc peut provoquer des hivers plus froids en Europe et des étés plus chauds.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: "./src/assets/base/card-6.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },

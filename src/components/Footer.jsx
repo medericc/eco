@@ -1,6 +1,6 @@
 
 import Section from "./Section";
-import { socials } from "../constants";
+import { socials } from "../tout";
 
 const Footer = () => {
   return (

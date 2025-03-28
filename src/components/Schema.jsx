@@ -1,11 +1,11 @@
 import { brainwaveSymbol } from "../assets";
-import { collabApps } from "../constants";
+import { collabApps } from "../tout";
 import Heading from "./Heading";
 
 import Section from "./Section";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { LeftCurve, RightCurve } from "./design/schema";
 
-const Collaboration = () => {
+const Schema = () => {
   return (
     <Section crosses id="schema">
         <Heading title="Les Concepts en Schéma" className="text-center" />
@@ -54,4 +54,4 @@ const Collaboration = () => {
   );
 };
 
-export default Collaboration;
+export default Schema;

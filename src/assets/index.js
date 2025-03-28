@@ -1,6 +1,6 @@
-import brainwave from "./brainwave.png";
+import brainwave from "./logo.png";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
+import brainwaveSymbol from "./symbol.svg";
 
 
 import gradient from "./gradient.png";
@@ -30,12 +30,12 @@ import plusSquare from "./plus-square.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
 
-import curve from "./hero/curve.png";
-import robot from "./hero/robot.webp";
-import heroBackground from "./hero/hero-background.jpg";
+import curve from "./style/curve.png";
+import robot from "./style/robot.webp";
+import styleBackground from "./style/back.jpg";
 
-import curve1 from "./collaboration/curve-1.svg";
-import curve2 from "./collaboration/curve-2.svg";
+import curve1 from "./schema/curve-1.svg";
+import curve2 from "./schema/curve-2.svg";
 
 
 import service1 from "./services/service-1.png";
@@ -52,25 +52,25 @@ import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
 
-import benefitCard1 from "./benefits/card-1.svg";
-import benefitCard2 from "./benefits/card-2.svg";
-import benefitCard3 from "./benefits/card-3.svg";
-import benefitCard4 from "./benefits/card-4.svg";
-import benefitCard5 from "./benefits/card-5.svg";
-import benefitCard6 from "./benefits/card-6.svg";
+import benefitCard1 from "./base/card-1.svg";
+import benefitCard2 from "./base/card-2.svg";
+import benefitCard3 from "./base/card-3.svg";
+import benefitCard4 from "./base/card-4.svg";
+import benefitCard5 from "./base/card-5.svg";
+import benefitCard6 from "./base/card-6.svg";
 
 
-import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitIcon5 from "./benefits/icon-5.svg";
-import benefitIcon6 from "./benefits/icon-6.svg";
-import benefitIcon7 from "./benefits/icon-7.svg";
-import benefitIcon8 from "./benefits/icon-8.svg";
+import benefitIcon1 from "./base/icon-1.svg";
+import benefitIcon2 from "./base/icon-2.svg";
+import benefitIcon3 from "./base/icon-3.svg";
+import benefitIcon4 from "./base/icon-4.svg";
+import benefitIcon5 from "./base/icon-5.svg";
+import benefitIcon6 from "./base/icon-6.svg";
+import benefitIcon7 from "./base/icon-7.svg";
+import benefitIcon8 from "./base/icon-8.svg";
 
 
-import benefitImage2 from "./benefits/image-2.png";
+import benefitImage2 from "./base/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -106,7 +106,7 @@ export {
   background,
   curve,
   robot,
-  heroBackground,
+  styleBackground,
   curve1,
   curve2,
   service1,

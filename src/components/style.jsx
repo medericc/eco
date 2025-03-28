@@ -1,15 +1,15 @@
-import { curve, heroBackground, robot } from "../assets";
+import { curve, styleBackground, robot } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
-import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import { heroIcons } from "../constants";
+import { BackgroundCircles, BottomLine, Gradient } from "./design/Style";
+import { styleIcons } from "../tout";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 
-const Hero = () => {
+const Style = () => {
   const parallaxRef = useRef(null);
 
   return (
@@ -60,7 +60,7 @@ const Hero = () => {
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
-                    {heroIcons.map((icon, index) => (
+                    {styleIcons.map((icon, index) => (
                       <li className="p-5" key={index}>
                         <img src={icon} width={24} height={25} alt={icon} />
                       </li>
@@ -81,11 +81,11 @@ const Hero = () => {
           </div>
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
-              src={heroBackground}
+              src={styleBackground}
               className="w-full"
               width={1440}
               height={1800}
-              alt="hero"
+              alt="style"
             />
           </div>
 
@@ -100,4 +100,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Style;
