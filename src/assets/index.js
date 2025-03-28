@@ -1,4 +1,4 @@
-import brainwave from "./brainwave.svg";
+import brainwave from "./brainwave.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -32,8 +32,10 @@ import curve2 from "./collaboration/curve-2.svg";
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
-
-
+import service4 from "./services/s1.png";
+import service5 from "./services/s2.png";
+import service6 from "./services/s3.png";
+import service7 from "./services/s4.png";
 
 
 import notification1 from "./notification/image-1.png";
@@ -97,6 +99,10 @@ export {
   service1,
   service2,
   service3,
+  service4,
+  service5,
+  service6,
+  service7,
  
   notification1,
   notification2,

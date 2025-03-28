@@ -1,6 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2,  check } from "../assets";
+import { service1, service2, service3, service4, service5, service6, service7,  check } from "../assets";
 import { brainwaveServices, brainwaveServices2, brainwaveServices3, brainwaveServices4, brainwaveServices5 } from "../constants";
 import {
   PhotoChatMessage,
@@ -27,8 +27,9 @@ const Services = () => {
                 width={800}
                 alt="Smartest AI"
                 height={730}
-                src={service1}
+                src={service7}
               />
+               <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
@@ -58,8 +59,10 @@ const Services = () => {
                 width={800}
                 alt="Smartest AI"
                 height={730}
-                src={service1}
+                src={service6}
               />
+                   <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
+          
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
@@ -89,8 +92,10 @@ const Services = () => {
                 width={800}
                 alt="Smartest AI"
                 height={730}
-                src={service1}
+                src={service5}
               />
+                   <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
+          
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
@@ -112,7 +117,7 @@ const Services = () => {
             <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
           </div> 
           
-          <div className="relative z-1 grid gap-5 lg:grid-cols-2">
+          <div className="relative z-1 grid gap-5 ">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
@@ -145,8 +150,10 @@ const Services = () => {
                 width={800}
                 alt="Smartest AI"
                 height={730}
-                src={service1}
+                src={service4}
               />
+                   <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
+          
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
@@ -179,6 +186,8 @@ const Services = () => {
                 height={730}
                 src={service1}
               />
+                   <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
+          
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">

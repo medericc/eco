@@ -1,5 +1,6 @@
 import { brainwaveSymbol } from "../assets";
 import { collabApps } from "../constants";
+import Heading from "./Heading";
 
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
@@ -7,6 +8,8 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 const Collaboration = () => {
   return (
     <Section crosses id="schema">
+        <Heading title="Les Concepts en Schéma" className="text-center" />
+
     <div className="container flex justify-center">
       <div className="max-w-[25rem] flex justify-center">
         {/* Conteneur principal centré */}
