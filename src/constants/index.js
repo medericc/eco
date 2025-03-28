@@ -8,8 +8,6 @@ import {
   benefitIcon7,
   benefitIcon8,
   benefitImage2,
-  chromecast,
-  disc02,
  
   discordBlack,
   facebook,
@@ -24,12 +22,12 @@ import {
 
   plusSquare,
  
-  recording01,
-  recording03,
+ 
+ 
 
   searchMd,
 
-  sliders04,
+
  
   twitter,
   yourlogo,
@@ -112,13 +110,7 @@ export const brainwaveServices5 = [
   "L'agriculture est sa cause principale",
   "En 30 ans on a perdu une quantité équivalente à la Libye",
 ];
-export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
-];
+
 
 
 
