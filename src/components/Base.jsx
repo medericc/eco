@@ -5,6 +5,17 @@ import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Base";
 import ClipPath from "../assets/svg/ClipPath";
 
+const links = {
+  "0": "https://www.youtube.com/watch?v=l2j8IaLx0Yk",
+  "1": "https://www.youtube.com/watch?v=hrfss-v5PQc&pp=ygUNQW50aHJvcG9jw6huZQ%3D%3D",
+  "2": "https://www.youtube.com/watch?v=vuuNcDwMqFs",
+  "3": "https://www.youtube.com/watch?v=kaeObGnMvEc",
+  "4": "https://www.youtube.com/watch?v=UHvqF-hT03o",
+  "5": "https://www.youtube.com/watch?v=808k5GVQMvE",
+  "6": "https://www.youtube.com/watch?v=vmJgfUReFUE",
+  "7": "https://www.youtube.com/watch?v=T7QTbgBEGA0",
+};
+
 const Base = () => {
   return (
     <Section id="concept">
@@ -36,7 +47,14 @@ const Base = () => {
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
                   </p>
-                  <Arrow />
+                  <a
+  href={links[item.id]}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="pointer-events-auto"
+>
+  <Arrow />
+</a>
                 </div>
               </div>
 
