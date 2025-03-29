@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Style from "./components/style";
 import Services from "./components/Services";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
@@ -15,8 +15,6 @@ const App = () => {
         <Base />
         <Schema />
         <Services />
-     
-        
         <Footer />
       </div>
 
