@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2,  service4, service5, service6, service7,  check } from "../assets";
-import { brainwaveServices, brainwaveServices2, brainwaveServices3, brainwaveServices4, brainwaveServices5 } from "../tout";
+import { assets } from "../assets";
+import { logoServices, logoServices2, logoServices3, logoServices4, logoServices5 } from "../tout";
 import {
   PhotoChatMessage,
   Gradient,
@@ -25,9 +25,9 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
-                alt="Smartest AI"
+                alt="Menaces"
                 height={730}
-                src={service7}
+                src={assets.service7}
               />
                <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
             </div>
@@ -36,12 +36,12 @@ const Services = () => {
               <h4 className="h4 mb-4">Menaces écologiques</h4>
               
               <ul className="body-2">
-                {brainwaveServices.map((item, index) => (
+                {logoServices.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
                   >
-                    <img width={24} height={24} src={check} />
+                    <img width={24} height={24} src={assets.check} />
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}
@@ -57,9 +57,9 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
-                alt="Smartest AI"
+                alt="Conséquences"
                 height={730}
-                src={service6}
+                src={assets.service6}
               />
                    <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
           
@@ -69,12 +69,12 @@ const Services = () => {
               <h4 className="h4 mb-4">Conséquences du réchauffement</h4>
               
               <ul className="body-2">
-                {brainwaveServices4.map((item, index) => (
+                {logoServices4.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
                   >
-                    <img width={24} height={24} src={check} />
+                    <img width={24} height={24} src={assets.check} />
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}
@@ -90,9 +90,9 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
-                alt="Smartest AI"
+                alt="Déforestation"
                 height={730}
-                src={service5}
+                src={assets.service5}
               />
                    <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
           
@@ -102,12 +102,12 @@ const Services = () => {
               <h4 className="h4 mb-4">La Déforestation</h4>
               
               <ul className="body-2">
-                {brainwaveServices5.map((item, index) => (
+                {logoServices5.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
                   >
-                    <img width={24} height={24} src={check} />
+                    <img width={24} height={24} src={assets.check} />
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}
@@ -121,11 +121,11 @@ const Services = () => {
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  src={service2}
+                  src={assets.service2}
                   className="h-full md:h-[160%] lg:h-[198%] xl:h-[260%]  2xl:h-[270%]  w-full object-cover"
                   width={630}
                   height={750}
-                  alt="robot"
+                  alt="extinction"
                 />
               </div>
 
@@ -148,9 +148,9 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
-                alt="Smartest AI"
+                alt="Effet de Serre"
                 height={730}
-                src={service4}
+                src={assets.service4}
               />
                    <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
           
@@ -160,12 +160,12 @@ const Services = () => {
               <h4 className="h4 mb-4">Sources d’émissions de CO₂</h4>
               
               <ul className="body-2">
-                {brainwaveServices2.map((item, index) => (
+                {logoServices2.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
                   >
-                    <img width={24} height={24} src={check} />
+                    <img width={24} height={24} src={assets.check} />
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}
@@ -182,9 +182,9 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
-                alt="Smartest AI"
+                alt="Réduction"
                 height={730}
-                src={service1}
+                src={assets.service1}
               />
                    <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
           
@@ -194,12 +194,12 @@ const Services = () => {
               <h4 className="h4 mb-4">Solutions de réduction</h4>
               
               <ul className="body-2">
-                {brainwaveServices3.map((item, index) => (
+                {logoServices3.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
                   >
-                    <img width={24} height={24} src={check} />
+                    <img width={24} height={24} src={assets.check} />
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}

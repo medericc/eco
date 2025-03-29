@@ -1,41 +1,4 @@
-import {
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitIcon5,
-  benefitIcon6,
-  benefitIcon7,
-  benefitIcon8,
-  benefitImage2,
- 
-  discordBlack,
-  facebook,
-
-  file02,
-
-  homeSmile,
-  instagram,
-  notification2,
-  notification3,
-  notification4,
-
-  plusSquare,
- 
- 
- 
-
-  searchMd,
-
-
- 
-  twitter,
-  yourlogo,
-  yourlogo2,
-  yourlogo3,
-  yourlogo4,
-  yourlogo5,
-} from "../assets";
+import { benefitIcon1, benefitIcon2, benefitIcon3, benefitIcon4, benefitIcon5, benefitIcon6,  benefitIcon7, benefitIcon8, benefitImage2, discordBlack, facebook, file02, homeSmile, instagram,  notification2, notification3, notification4, plusSquare, searchMd, twitter, yourlogo, yourlogo2, yourlogo3, yourlogo4, yourlogo5, } from "../assets";
 
 export const navigation = [
   {
@@ -112,11 +75,6 @@ export const brainwaveServices5 = [
 ];
 
 
-
-
-
-
-
 export const collabApps = [
   {
     id: "0",
@@ -190,8 +148,8 @@ export const base = [
   {
     id: "1",
     title: "L'Écosystème",
-    text: "Ensemble d’interactions entre les organismes et leur environnement physique, ils forment la biosphère, l’ensemble des zones où la vie est possible sur Terre.",
-    backgroundUrl: "./src/assets/base/card-2.svg",
+    text: "Grandes zones climatiques regroupant des écosystèmes similaires, qui sont influencés par des facteurs abiotiques et biotiques.",
+   backgroundUrl: "./src/assets/base/card-2.svg",
     iconUrl: benefitIcon8,
     imageUrl: benefitImage2,
     light: true,
