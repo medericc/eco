@@ -8,7 +8,7 @@ import { LeftCurve, RightCurve } from "./design/schema";
 const Schema = () => {
   return (
     <Section crosses id="schema">
-        <Heading title="Les Concepts en Schéma" className="text-center" />
+        <Heading title="Les Compétitions d'Inès" className="text-center" />
 
     <div className="container flex justify-center">
       <div className="max-w-[25rem] flex justify-center">

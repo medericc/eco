@@ -12,7 +12,7 @@ const Generating: React.FC<GeneratingProps> = ({ className }) => {
       } text-base`}
     >
       <img className="w-6 h-6 mr-4" src={assets.loading} alt="Loading" />
-       <span className="text-sm">Dieu a tant aimé le monde</span>
+       <span className="text-sm">Inès Debroise Fan Account</span>
     </div>
   );
 };

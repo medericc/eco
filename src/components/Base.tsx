@@ -21,8 +21,8 @@ const Base = () => {
     <Section id="concept">
       <div className="container relative z-2">
         <Heading
-          className="md:max-w-md lg:max-w-2xl"
-          title="Les concepts clés pour aider à comprendre"
+          className="md:max-w-md lg:max-w-2xl text-center"
+          title="Les Achievements d'Inès"
         />
 
 <div className="flex flex-wrap gap-10 mb-10 justify-center">

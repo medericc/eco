@@ -81,7 +81,7 @@ const Header = () => {
         </a>
         <Button 
   className="hidden lg:flex" 
-  href="https://www.youtube.com/@france_jeunesse"
+  href="https://www.youtube.com/@fan_goat_ines"
   target="_blank"
   rel="noopener noreferrer"
 >
