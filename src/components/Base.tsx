@@ -28,8 +28,8 @@ const Base = () => {
 <div className="flex flex-wrap gap-10 mb-10 justify-center">
           {base.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] md:flex-1 lg:flex-1 xl:flex-none"
-              style={{
+            className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] w-full sm:w-[47%] md:w-[47%] xl:w-[30%]"
+ style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
               key={item.id}
