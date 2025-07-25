@@ -6,14 +6,14 @@ import { GradientLight } from "./design/Base";
 import ClipPath from "../assets/svg/ClipPath";
 
 const links: { [key: string]: string } = {
-  "0": "https://www.youtube.com/watch?v=l2j8IaLx0Yk",
-  "1": "https://www.youtube.com/watch?v=hrfss-v5PQc&pp=ygUNQW50aHJvcG9jw6huZQ%3D%3D",
-  "2": "https://www.youtube.com/watch?v=vuuNcDwMqFs",
-  "3": "https://www.youtube.com/watch?v=kaeObGnMvEc",
-  "4": "https://www.youtube.com/watch?v=UHvqF-hT03o",
-  "5": "https://www.youtube.com/watch?v=808k5GVQMvE",
-  "6": "https://www.youtube.com/watch?v=vmJgfUReFUE",
-  "7": "https://www.youtube.com/watch?v=T7QTbgBEGA0",
+  "0": "https://youtu.be/Iluz03n-Dlg?si=NuHRkp92pE2o0aAQ",
+  "1": "https://www.youtube.com/watch?v=-Sigc4EQdr0",
+  "2": "https://www.youtube.com/watch?v=IF-r4UMcdYc",
+  // "3": "https://www.youtube.com/watch?v=kaeObGnMvEc",
+  // "4": "https://www.youtube.com/watch?v=UHvqF-hT03o",
+  // "5": "https://www.youtube.com/watch?v=808k5GVQMvE",
+  // "6": "https://www.youtube.com/watch?v=vmJgfUReFUE",
+  // "7": "https://www.youtube.com/watch?v=T7QTbgBEGA0",
 };
 
 const Base = () => {
