@@ -1,18 +1,18 @@
 // Importation des images et icônes
 import logo from "./logo.png";
 import check from "./check.svg";
-import logoSymbol from "./symbol.svg";
+import logoSymbol from "./symbol.png";
 
 import gradient from "./gradient.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
 
-import yourlogo from "./biod.svg";
-import yourlogo2 from "./eco.svg";
-import yourlogo3 from "./logo.svg";
-import yourlogo4 from "./environnements.svg";
-import yourlogo5 from "./logo2.svg";
+import yourlogo from "./biod.png";
+import yourlogo2 from "./eco.png";
+import yourlogo3 from "./log.png";
+import yourlogo4 from "./environnements.png";
+import yourlogo5 from "./logo2.png";
 
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
@@ -42,14 +42,14 @@ import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
 
 
-import baseIcon1 from "./base/icon-1.svg";
-import baseIcon2 from "./base/icon-2.svg";
-import baseIcon3 from "./base/icon-3.svg";
-import baseIcon4 from "./base/icon-4.svg";
-import baseIcon5 from "./base/icon-5.svg";
-import baseIcon6 from "./base/icon-6.svg";
-import baseIcon7 from "./base/icon-7.svg";
-import baseIcon8 from "./base/icon-8.svg";
+import baseIcon1 from "./base/icon-1.png";
+import baseIcon2 from "./base/icon-2.png";
+import baseIcon3 from "./base/icon-3.png";
+import baseIcon4 from "./base/icon-4.png";
+import baseIcon5 from "./base/icon-5.png";
+import baseIcon6 from "./base/icon-6.png";
+import baseIcon7 from "./base/icon-7.png";
+import baseIcon8 from "./base/icon-8.png";
 
 import baseImage2 from "./base/image-2.png";
 
