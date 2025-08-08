@@ -37,7 +37,7 @@ const Style = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          Découvrez la carrière d'Inès, ses titres, accomplisements, match et statistiques.
+          Découvrez la carrière d'Inès, ses titres, accomplisements, matchs et statistiques.
           </p>
           <Button href="https://carla-leite-fan.com/ines" white >
             Son StatsCenter

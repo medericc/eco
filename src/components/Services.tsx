@@ -15,9 +15,9 @@ import Generating from "./Generating";
 const Services = () => {
   return (
    <Section id="enjeu"> 
-  <div className="container">
+  <div className="container text-center">
     <Heading
-      title="Les Grands Matchs d'Inès."
+      title="Les Grands Matchs d'Inès"
       text="Vainqueure de l'EuroChallenger en 2021, Championne d'Europe en 2023 avec la France et vainqueure de la Saison Régulière de l'A10 avec Rhode Island en 2023."
     />
 
@@ -106,7 +106,7 @@ const Services = () => {
           <div className="absolute inset-0">
             <img
               src={assets.service2}
-              className="h-full md:h-[160%] lg:h-[198%] xl:h-[260%] 2xl:h-[270%] w-full object-cover"
+              className="h-full md:h-[160%] lg:h-[198%] xl:h-[220%] 2xl:h-[230%] lg:-mt-10 2xl:-mt-15 w-full object-cover"
               width={630}
               height={750}
               alt="Ines championne de basketball"
