@@ -20,7 +20,7 @@ import searchMd from "./search-md.svg";
 import plusSquare from "./plus-square.svg";
 
 import loading from "./loading.png";
-import background from "./background.jpg";
+import background from "./background.png";
 
 import curve from "./style/curve.png";
 import nature from "./style/nature.webp";
