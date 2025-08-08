@@ -1,6 +1,6 @@
 // Importation des images et icônes
 import logo from "./logo.png";
-import check from "./check.svg";
+import check from "./check.png";
 import logoSymbol from "./symbol.png";
 
 import gradient from "./gradient.png";

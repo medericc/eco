@@ -34,8 +34,8 @@ const Services = () => {
           />
           <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
         </div>
-        <div className="relative z-1 max-w-[17rem] ml-auto">
-          <h4 className="h4 mb-4">Inès vs Duquesne</h4>
+        <div className="relative z-1 max-w-[17rem] m-auto">
+          <h4 className="text-3xl mb-4">Inès vs Duquesne</h4>
           <ul className="body-2">
             {logoServices.map((item, index) => (
               <li key={index} className="flex items-start py-4 border-t border-n-6">
@@ -60,7 +60,7 @@ const Services = () => {
           />
           <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
         </div>
-        <div className="relative z-1 max-w-[17rem] ml-auto">
+        <div className="relative z-1 max-w-[17rem] m-auto">
           <h4 className="h4 mb-4">Inès vs Lettonie</h4>
           <ul className="body-2">
             {logoServices2.map((item, index) => (
@@ -86,7 +86,7 @@ const Services = () => {
           />
           <div className="absolute inset-0 bg-black opacity-80 md:hidden"></div>
         </div>
-        <div className="relative z-1 max-w-[17rem] ml-auto">
+        <div className="relative z-1 max-w-[17rem] m-auto">
           <h4 className="h4 mb-4">Inès vs Espagne</h4>
           <ul className="body-2">
             {logoServices3.map((item, index) => (
