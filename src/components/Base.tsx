@@ -47,7 +47,7 @@ const Base = () => {
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more
                   </p>
-                  <a href={links[item.id]} target="_blank" rel="noopener noreferrer">
+                  <a href={links[item.id]} target="_blank" rel="noopener noreferrer"  className="pointer-events-auto">
     <Arrow />
   </a>
                 </div>
