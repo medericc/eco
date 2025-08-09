@@ -27,13 +27,7 @@ const Style = () => {
           Inès Debroise, meneuse de jeu et capitaine de  {` `}
             <span className="inline-block relative">
             Rhody.{" "}
-              <img
-                src={assets.curve}
-                className="absolute top-full left-0 w-full xl:-mt-2"
-                width={624}
-                height={28}
-                alt="Curve"
-              />
+            
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
