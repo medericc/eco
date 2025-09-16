@@ -6,7 +6,11 @@ import { assets } from "../assets";
     url: string;
     onlyMobile?: boolean;
   }
-  
+  interface CompanyLogo {
+  src: string;
+  width?: number;
+  height?: number;
+}
   export const navigation: NavigationItem[] = [
     { id: "0", title: "Biography", url: "#debut" },
     { id: "1", title: "Achievements", url: "#concept" },
@@ -17,8 +21,14 @@ import { assets } from "../assets";
   
   export const styleIcons: string[] = [assets.homeSmile, assets.file02, assets.searchMd, assets.plusSquare];
   export const notificationImages: string[] = [assets.notification4, assets.notification3, assets.notification2];
-  export const companyLogos: string[] = [assets.yourlogo4, assets.yourlogo2, assets.yourlogo5, assets.yourlogo, assets.yourlogo3];
-  
+export const companyLogos: CompanyLogo[] = [
+  { src: assets.yourlogo4, width: 99, height: 21 },  // environnements.png
+  { src: assets.yourlogo2, width: 99, height: 21 },  // eco.png
+  { src: assets.yourlogo5, width: 134, height: 28 }, // logo2.png (par défaut)
+  { src: assets.yourlogo,  width: 138, height: 29 }, // biod.png (par défaut)
+  { src: assets.yourlogo3, width: 148, height: 30 }, // log.png (par défaut)
+];
+
   export const logoServices: string[] = [
     "19 Points",
     "5 Rebonds",
