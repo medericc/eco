@@ -35,22 +35,31 @@
   <meta name="twitter:creator" content="@fan_inesd" />
 
   <!-- JSON-LD pour Google (schema.org) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Inès Debroise",
-    "jobTitle": "Basketteuse professionnelle",
-    "nationality": "Française",
-    "image": "https://ines-debroise.com/ines-debroise-og.jpg",
-    "url": "https://ines-debroise.com/",
-    "sameAs": [
-      "https://www.instagram.com/ines_debroise_fan",
-      "https://twitter.com/fan_inesd"
-      
-    ]
-  }
-  </script>
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Inès Debroise - Fan Site Officiel",
+      "alternateName": "Inès Debroise Fan Site",
+      "url": "https://ines-debroise.com/"
+    },
+    {
+      "@type": "Person",
+      "name": "Inès Debroise",
+      "jobTitle": "Basketteuse professionnelle",
+      "nationality": "Française",
+      "image": "https://ines-debroise.com/ines-debroise-og.jpg",
+      "url": "https://ines-debroise.com/",
+      "sameAs": [
+        "https://www.instagram.com/ines_debroise_fan",
+        "https://twitter.com/fan_inesd"
+      ]
+    }
+  ]
+}
+</script>
 
   <script type="module" src="/src/main.tsx"></script>
 </head>
