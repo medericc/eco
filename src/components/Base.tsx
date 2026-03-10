@@ -6,9 +6,9 @@ import { GradientLight } from "./design/Base";
 import ClipPath from "../assets/svg/ClipPath";
 
 const links: { [key: string]: string } = {
-  "0": "https://youtu.be/Iluz03n-Dlg?si=NuHRkp92pE2o0aAQ",
-  "1": "https://www.youtube.com/watch?v=-Sigc4EQdr0",
-  "2": "https://www.youtube.com/watch?v=IF-r4UMcdYc",
+  "0": "https://youtu.be/x2_WUWkrG7A?si=Hdq7djQItUb0o_rd",
+  "1": "https://youtu.be/x2_WUWkrG7A?si=Hdq7djQItUb0o_rd",
+  "2": "https://youtu.be/x2_WUWkrG7A?si=Hdq7djQItUb0o_rd",
   // "3": "https://www.youtube.com/watch?v=kaeObGnMvEc",
   // "4": "https://www.youtube.com/watch?v=UHvqF-hT03o",
   // "5": "https://www.youtube.com/watch?v=808k5GVQMvE",
