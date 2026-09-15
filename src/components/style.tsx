@@ -33,8 +33,8 @@ const Style = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           Découvrez la carrière d'Inès, ses titres, accomplisements, matchs et statistiques.
           </p>
-          <Button href="https://carlaleitefan.com/ines" white >
-            Son StatsCenter
+          <Button href="https://idrecovery.fr" white >
+            Son Site Pro
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24" >
