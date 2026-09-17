@@ -26,7 +26,7 @@ export const companyLogos: CompanyLogo[] = [
   { src: assets.yourlogo2, width: 99, height: 21 },  // eco.png
   { src: assets.yourlogo5, width: 134, height: 28 }, // logo2.png (par défaut)
   { src: assets.yourlogo,  width: 138, height: 29 }, // biod.png (par défaut)
-  { src: assets.yourlogo3, width: 148, height: 30 }, // log.png (par défaut)
+  { src: assets.yourlogo3, width: 138, height: 29 }, // log.png (par défaut)
 ];
 
   export const logoServices: string[] = [
