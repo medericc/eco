@@ -41,7 +41,7 @@ const Header = () => {
   src={assets.logo}
   width={190}
   height={40}
-  alt="Logo"
+  alt="Logo d'Inès Debroise"
  
 />
   </a>

@@ -17,7 +17,7 @@ const Notification: React.FC<NotificationProps> = ({ className, title }) => {
         src={assets.notification1}
         width={62}
         height={62}
-        alt="notifications"
+        alt="équipe Inès Debroise"
         className="rounded-xl"
       />
 

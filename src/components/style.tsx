@@ -24,7 +24,7 @@ const Style = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-          Inès Debroise, meneuse de jeu et capitaine de  {` `}
+          Inès Debroise, meneuse de jeu et ex-capitaine de  {` `}
             <span className="inline-block relative">
             Rhody.{" "}
             
@@ -48,7 +48,7 @@ const Style = () => {
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
                   height={490}
-                  alt="image"
+                  alt="Inès Debroise lors d'un match de basket"
                 />
 
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
@@ -80,7 +80,7 @@ const Style = () => {
               className="w-full"
               width={1440}
               height={1800}
-              alt="style"
+              alt="Image carrière Inès Debroise"
             />
           </div>
 
