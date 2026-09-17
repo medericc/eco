@@ -10,7 +10,7 @@ import loading1 from "./loading-01.svg";
 
 import yourlogo from "./biod.png";
 import yourlogo2 from "./eco.png";
-import yourlogo3 from "./log.png";
+import yourlogo3 from "./geispolsheim.webp";
 import yourlogo4 from "./environnements.png";
 import yourlogo5 from "./logo2.png";
 
